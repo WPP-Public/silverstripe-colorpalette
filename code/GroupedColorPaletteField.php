@@ -12,8 +12,8 @@ class GroupedColorPaletteField extends DropdownField
         $fieldExtraClass = $this->extraClass();
         $groups = array();
 
-        if($source) {
-            foreach($source as $name => $values) {
+        if ($source) {
+            foreach ($source as $name => $values) {
                 if (is_array($values)) {
                     $options = array();
 
@@ -58,7 +58,8 @@ class GroupedColorPaletteField extends DropdownField
         );
     }
 
-    public function Type() {
+    public function Type()
+    {
         return 'groupedcolorpalette colorpalette';
     }
 }
