@@ -6,6 +6,10 @@ Provides a color picker field in SilverStripe allowing a user to select from def
 
 	$ composer require heyday/silverstripe-colorpalette
 
+## Example
+
+![Color Palette Example](resources/example.png?raw=true)
+
 ## Usage
 
 ### Regular palette
