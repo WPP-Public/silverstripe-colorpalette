@@ -1,7 +1,15 @@
 <?php
 
+/**
+ * Class GroupedColorPaletteField
+ */
 class GroupedColorPaletteField extends DropdownField
 {
+    /**
+     * @param array $properties
+     * @throws InvalidArgumentException
+     * @return HTMLText
+     */
     public function Field($properties = array())
     {
         Requirements::css(COLORPALETTE_DIR . '/css/ColorPaletteField.css');
@@ -44,7 +52,7 @@ class GroupedColorPaletteField extends DropdownField
                     );
 
                 } else {
-                    //error
+                    throw new InvalidArgumentException('To use GroupedColorPaletteField you need to pass in an array of array\'s');
                 }
             }
         }
@@ -58,6 +66,9 @@ class GroupedColorPaletteField extends DropdownField
         );
     }
 
+    /**
+     * @return string
+     */
     public function Type()
     {
         return 'groupedcolorpalette colorpalette';

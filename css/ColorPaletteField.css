@@ -21,7 +21,6 @@
 
 .colorpalette li input:checked + label {
     outline: 5px solid #fff;
-    /*-webkit-transform:scale(1.2);*/
     position: relative;
 }
 .colorpalette li input:checked + label:after {
@@ -32,7 +31,7 @@
     text-align: center;
     content:"✔";
     color:#000;
-    text-shadow:1px 1px 0px #ccc;
+    text-shadow:1px 1px 0 #ccc;
 }
 
 .groupedcolorpalette h4 {
