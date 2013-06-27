@@ -1,0 +1,11 @@
+{
+    "name": "heyday/silverstripe-colorpalette",
+    "description": "A coor palette picker for SilverStripe CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cam Spiers",
+            "email": "camspiers@gmail.com"
+        }
+    ]
+}

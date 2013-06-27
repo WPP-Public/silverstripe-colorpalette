@@ -1,0 +1,45 @@
+.colorpalette ul {
+    overflow: hidden;
+}
+
+.colorpalette li {
+    float: left;
+}
+
+.colorpalette li input {
+    display: none;
+}
+
+.colorpalette li label {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 5px 15px 5px 5px;
+    outline: 1px solid #fff;
+}
+
+.colorpalette li input:checked + label {
+    outline: 5px solid #fff;
+    /*-webkit-transform:scale(1.2);*/
+    position: relative;
+}
+.colorpalette li input:checked + label:after {
+    position: absolute;
+    width:100%;
+    height:100%;
+    line-height: 50px;
+    text-align: center;
+    content:"✔";
+    color:#000;
+    text-shadow:1px 1px 0px #ccc;
+}
+
+.groupedcolorpalette h4 {
+    padding: 8px 8px 8px 0;
+    line-height: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    font-size: 12px;
+    margin: 0;
+}
