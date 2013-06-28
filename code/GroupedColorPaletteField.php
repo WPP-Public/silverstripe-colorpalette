@@ -32,22 +32,22 @@ class GroupedColorPaletteField extends DropdownField
                         $extraClass .= ' val' . preg_replace('/[^a-zA-Z0-9\-\_]/', '_', $value);
 
                         $options[] = new ArrayData(array(
-                            'ID' => $itemID,
-                            'Class' => $extraClass,
-                            'Name' => $this->name,
-                            'Value' => $value,
-                            'Title' => $color,
-                            'isChecked' => $value == $this->value,
+                            'ID'         => $itemID,
+                            'Class'      => $extraClass,
+                            'Name'       => $this->name,
+                            'Value'      => $value,
+                            'Title'      => $color,
+                            'isChecked'  => $value == $this->value,
                             'isDisabled' => $this->disabled || in_array($value, $this->disabledItems),
                         ));
                     }
 
                     $groups[] = new ArrayData(
                         array(
-                            'ID' => $this->ID() . '_' . preg_replace('/[^a-zA-Z0-9]/', '', $name),
+                            'ID'         => $this->ID() . '_' . preg_replace('/[^a-zA-Z0-9]/', '', $name),
                             'extraClass' => $fieldExtraClass,
-                            'Name' => $name,
-                            'Options' => new ArrayList($options)
+                            'Name'       => $name,
+                            'Options'    => new ArrayList($options)
                         )
                     );
 
@@ -57,9 +57,12 @@ class GroupedColorPaletteField extends DropdownField
             }
         }
 
-        $properties = array_merge($properties, array(
-            'Groups' => new ArrayList($groups)
-        ));
+        $properties = array_merge(
+            $properties,
+            array(
+                'Groups' => new ArrayList($groups)
+            )
+        );
 
         return $this->customise($properties)->renderWith(
             $this->getTemplates()
