@@ -29,7 +29,7 @@
     height:100%;
     line-height: 50px;
     text-align: center;
-    content:"✔";
+    content:"\2714";
     color:#000;
     text-shadow:1px 1px 0 #ccc;
 }
