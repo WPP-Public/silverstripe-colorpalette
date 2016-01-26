@@ -19,6 +19,10 @@
     outline: 1px solid #fff;
 }
 
+.colorpalette.readonly li label {
+    cursor: default;
+}
+
 .colorpalette li input:checked + label {
     outline: 5px solid #fff;
     position: relative;
