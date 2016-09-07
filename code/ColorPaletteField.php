@@ -5,6 +5,14 @@
  */
 class ColorPaletteField extends OptionsetField
 {
+    public function getSource()
+    {
+        if(!$this->source) {
+            return ColorPalette::values(ColorPalette::all());
+        }
+        return parent::getSource();
+    }
+    
     /**
      * @param array $properties
      * @return HTMLText
