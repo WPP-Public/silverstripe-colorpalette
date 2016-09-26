@@ -3,7 +3,7 @@
 /**
  * Class GroupedColorPaletteField
  */
-class GroupedColorPaletteField extends DropdownField
+class GroupedColorPaletteField extends GroupedDropdownField
 {
     /**
      * @param array $properties
