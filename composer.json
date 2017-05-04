@@ -12,5 +12,10 @@
 			"name": "Kyle Beattie",
 			"email": "kyle@heyday.co.nz"
 		}
-	]
+	],
+	"require": {
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.2"
+	}
+
 }
