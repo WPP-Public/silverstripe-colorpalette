@@ -15,7 +15,11 @@
 	],
 	"require": {
 		"composer/installers": "*",
-		"silverstripe/framework": ">=3.2"
-	}
-
+		"silverstripe/framework": "^4.0"
+	},
+  "autoload": {
+    "psr-4": {
+      "Heyday\\ColorPalette\\": "src/"
+    }
+  }
 }
