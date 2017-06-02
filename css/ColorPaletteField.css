@@ -1,9 +1,11 @@
 .colorpalette ul {
     overflow: hidden;
+    padding-left: 0;
 }
 
 .colorpalette li {
     float: left;
+    list-style: none;
 }
 
 .colorpalette li input {
