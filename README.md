@@ -50,6 +50,6 @@ $fields->addFieldToTab(
 );
 ```
 
-##License
+## License
 
 SilverStripe Color Palette Field is licensed under an [MIT license](http://heyday.mit-license.org/)
