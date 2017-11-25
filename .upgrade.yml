@@ -1,0 +1,5 @@
+mappings:
+  ColorPaletteField: Heyday\ColorPalette\Fields\ColorPaletteField
+  ColorPaletteField_Readonly: Heyday\ColorPalette\Fields\ColorPaletteField_Readonly
+  GroupedColorPaletteField: Heyday\ColorPalette\Fields\GroupedColorPaletteField
+  GroupedColorPaletteField_Readonly: Heyday\ColorPalette\Fields\GroupedColorPaletteField_Readonly
