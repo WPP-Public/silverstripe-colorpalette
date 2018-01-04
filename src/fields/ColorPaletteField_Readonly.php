@@ -15,7 +15,7 @@ class ColorPaletteField_Readonly extends LookupField
      */
     public function Field($properties = [])
     {
-        Requirements::css('heyday/silverstripe-colorpalette: css/ColorPaletteField.css');
+        Requirements::css('heyday/silverstripe-colorpalette:css/ColorPaletteField.css');
 
         return parent::Field($properties);
     }
