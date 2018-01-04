@@ -22,7 +22,7 @@ class GroupedColorPaletteField extends GroupedDropdownField
      */
     public function Field($properties = [])
     {
-        Requirements::css(COLORPALETTE_DIR . '/css/ColorPaletteField.css');
+        Requirements::css('heyday/silverstripe-colorpalette:css/ColorPaletteField.css');
 
         $source = $this->getSource();
 
