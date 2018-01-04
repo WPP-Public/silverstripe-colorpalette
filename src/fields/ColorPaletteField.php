@@ -18,7 +18,7 @@ class ColorPaletteField extends OptionsetField
      */
     public function Field($properties = [])
     {
-        Requirements::css(COLORPALETTE_DIR . '/css/ColorPaletteField.css');
+        Requirements::css('heyday/silverstripe-colorpalette: css/ColorPaletteField.css');
 
         return parent::Field($properties);
     }
