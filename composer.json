@@ -1,6 +1,11 @@
 {
 	"name": "heyday/silverstripe-colorpalette",
 	"type": "silverstripe-vendormodule",
+	"extra": {
+		"expose": [
+			"css"
+		]
+	},
 	"description": "A color palette picker for SilverStripe CMS",
 	"license": "MIT",
 	"authors": [
