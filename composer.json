@@ -20,11 +20,17 @@
 	],
 	"require": {
 		"composer/installers": "*",
-		"silverstripe/framework": "^4.0"
+		"silverstripe/framework": "^4.0",
+		"silverstripe/vendor-plugin": "^1"
 	},
   "autoload": {
     "psr-4": {
       "Heyday\\ColorPalette\\": "src/"
     }
-  }
+	},
+	"extra": {
+		"expose": [
+				"css"
+		]
+	}
 }
