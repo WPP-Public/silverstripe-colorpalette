@@ -19,6 +19,7 @@
     display: block;
     margin: 5px 15px 5px 5px;
     outline: 1px solid #fff;
+    border: 1px solid #999;
 }
 
 .colorpalette.readonly li label {
@@ -26,8 +27,8 @@
 }
 
 .colorpalette li input:checked + label {
-    outline: 5px solid #fff;
-    position: relative;
+    outline: 5px solid #ddd;
+    position: relative;	
 }
 .colorpalette li input:checked + label:after {
     position: absolute;
@@ -37,7 +38,11 @@
     text-align: center;
     content:"\2714";
     color:#000;
-    text-shadow:1px 1px 0 #ccc;
+    text-shadow:
+		-1px -1px 0 #fff,  
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
 }
 
 .groupedcolorpalette h4 {
