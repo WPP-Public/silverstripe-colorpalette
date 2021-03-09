@@ -1,36 +1,31 @@
 {
-	"name": "heyday/silverstripe-colorpalette",
-	"type": "silverstripe-vendormodule",
-	"extra": {
-		"expose": [
-			"css"
-		]
-	},
-	"description": "A color palette picker for SilverStripe CMS",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Cam Spiers",
-			"email": "camspiers@gmail.com"
-		},
-		{
-			"name": "Kyle Beattie",
-			"email": "kyle@heyday.co.nz"
-		}
-	],
-	"require": {
-		"composer/installers": "*",
-		"silverstripe/framework": "^4.0",
-		"silverstripe/vendor-plugin": "^1"
-	},
-  "autoload": {
-    "psr-4": {
-      "Heyday\\ColorPalette\\": "src/"
+    "name": "heyday/silverstripe-colorpalette",
+    "type": "silverstripe-vendormodule",
+    "description": "A color palette picker for SilverStripe CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cam Spiers",
+            "email": "camspiers@gmail.com"
+        },
+        {
+            "name": "Kyle Beattie",
+            "email": "kyle@heyday.co.nz"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": "^4.0",
+        "silverstripe/vendor-plugin": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heyday\\ColorPalette\\": "src/"
+        }
+    },
+    "extra": {
+        "expose": [
+            "css"
+        ]
     }
-	},
-	"extra": {
-		"expose": [
-				"css"
-		]
-	}
 }
