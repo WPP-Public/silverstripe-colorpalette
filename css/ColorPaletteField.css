@@ -18,7 +18,7 @@
     height: 50px;
     display: block;
     margin: 5px 15px 5px 5px;
-    outline: 1px solid #fff;
+    outline: 1px solid #ced5e1;
 }
 
 .colorpalette.readonly li label {
@@ -26,7 +26,7 @@
 }
 
 .colorpalette li input:checked + label {
-    outline: 5px solid #fff;
+    outline: 5px solid #ced5e1;
     position: relative;
 }
 .colorpalette li input:checked + label:after {
