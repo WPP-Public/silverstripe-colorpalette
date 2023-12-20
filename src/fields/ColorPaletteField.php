@@ -2,10 +2,8 @@
 
 namespace Heyday\ColorPalette\Fields;
 
-
 use SilverStripe\Forms\OptionsetField;
 use SilverStripe\View\Requirements;
-
 
 /**
  * Class ColorPaletteField
